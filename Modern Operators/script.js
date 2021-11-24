@@ -34,6 +34,9 @@ const restaurant = {
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
     );
   },
+  orderPasta: function (ing1, ing2, ing3) {
+    console.log(`Here is your delicious pasta with ${ing1}, ${ing2}, ${ing3}`);
+  },
 };
 
 restaurant.orderDelivery({
@@ -61,12 +64,16 @@ const newMenu = [...restaurant.mainMenu, "Gnocci"];
 const mainMenuCopy = [...restaurant.mainMenu];
 
 // Join 2 arrays
-const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+const menu = [...restaurant.mainMenu, ...restfaurant.starterMenu];
 
 // Iterables : arrays, strings, maps, sets. Not objects
 
 const str = "Jonas";
-const letters = [...str, " ", s];
+const letters = [...str, " ", "s"];
+console.log(letters);
+
+const ingredients = ["Cheese", "Brocolli", "Capsicum"];
+restaurant.orderPasta(...ingredients);
 
 // Destructuring Objects
 
