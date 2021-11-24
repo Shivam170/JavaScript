@@ -64,7 +64,7 @@ const newMenu = [...restaurant.mainMenu, "Gnocci"];
 const mainMenuCopy = [...restaurant.mainMenu];
 
 // Join 2 arrays
-const menu = [...restaurant.mainMenu, ...restfaurant.starterMenu];
+const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
 
 // Iterables : arrays, strings, maps, sets. Not objects
 
@@ -75,6 +75,10 @@ console.log(letters);
 const ingredients = ["Cheese", "Brocolli", "Capsicum"];
 restaurant.orderPasta(...ingredients);
 
+// Objects
+
+const newRestaurant = { ...restaurant, founder: "Coco" };
+console.log(newRestaurant);
 // Destructuring Objects
 
 // const { name, openingHours, categories } = restaurant;
