@@ -26,9 +26,10 @@ const calcAge2 = function (birthYear) {
 const age2 = calcAge2(1991);
 
 // Arrow function (Function Expression)
+// Do not have this keyword
 
 const calcAge3 = (birthYear) => 2037 - birthYear;
-const age3 = calcAge3(1991);
+const age3 = calcAge3(1992);
 
 console.log(age1, age2, age3);
 

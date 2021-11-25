@@ -79,6 +79,7 @@ restaurant.orderPasta(...ingredients);
 
 const newRestaurant = { ...restaurant, founder: "Coco" };
 console.log(newRestaurant);
+
 // Destructuring Objects
 
 // const { name, openingHours, categories } = restaurant;
