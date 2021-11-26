@@ -42,7 +42,7 @@ const restaurant = {
 restaurant.orderDelivery({
   time: "22:30",
   address: "Via del Sole, 21",
-  mainIndex: 2,
+  mainIndex: 1,
   starterIndex: 2,
 });
 
