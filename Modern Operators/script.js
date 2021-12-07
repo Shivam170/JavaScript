@@ -97,10 +97,10 @@ console.log(newRestaurant);
 // const { menu = [], starterMenu: starters = [] } = restaurant;
 
 // // Mutating Variables
-// let a = 111;
-// let b = 999;
-// const obj = { a: 23, b: 7, c: 14 };
-// ({ a, b } = obj);
+let a = 111;
+let b = 999;
+const obj = { a: 23, b: 7, c: 14 };
+({ a, b } = obj);
 
 // // Nested Objects
 // const {
